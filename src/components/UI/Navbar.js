@@ -1,17 +1,15 @@
 import style from "../../styles/navbar.module.css"
 import React from "react"
-
+import {Link} from "react-router-dom"
 export default function Navbar(){
-    const navbarList = ["Home", "About Me", "My Projects", "My Hobbies"]
-    const handleClick = () => {
-        console.log("hi")
-    }
+    const navbarList = ["Home", "AboutMe", "MyProjects", "MyHobbies"]
+
     return(
         <div className={style.navbar}>
             {
                 navbarList.map((item)=>{
                     return(
-                        <div onClick={handleClick}>{item}</div>
+                        <Link to={"/"+item}>{item}</Link>
                     )
                 })
             }

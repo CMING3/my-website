@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function MyHobbies() {
   return (
-    <div></div>
+    <div>Hobby page</div>
   )
 }
