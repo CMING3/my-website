@@ -1,0 +1,11 @@
+.aboutMe{
+    height: 95vh;
+    color: white;
+}
+
+.statusBoard{
+    height: 100px;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
