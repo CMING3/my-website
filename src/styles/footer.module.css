@@ -1,8 +1,11 @@
-.footer{
+.footer>*{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: lightgray;
     border-top: 1px solid black;
     height:5vh;
+    text-decoration: none;
+    color: black;
+    z-index: 2;
 }

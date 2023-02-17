@@ -1,0 +1,94 @@
+.Home{
+    height:95vh;
+    color: #FFF;
+    overflow: hidden;
+}
+.Home>.slideshow{
+    height:100%;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight:500;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2;
+    overflow: hidden;
+}
+
+.slideshow>span{
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    user-select: none;
+    width:fit-content;
+    padding: 0;
+}
+
+@keyframes fade-in{
+    0% { opacity: 0.0; }
+    100% { opacity: 1.0;}
+}
+@keyframes fade-out{
+    0% { opacity: 1.0; }
+    100% { opacity: 0.0;}
+}
+@keyframes type-in{
+    0% { width:0 }
+    100% { width: 100% }
+}
+
+/* select span to control the whole sentence fade out */
+.slideshow>span:first-of-type{
+    animation-name: fade-out;
+    animation-delay: 3s;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    z-index: 2;
+}
+
+.slideshow>span:nth-of-type(2){
+    animation-name: fade-out;
+    animation-delay: 8.5s;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+/* select p to control typing effect */
+.firstSentence{
+    width: 0;
+    overflow: hidden;
+    white-space:nowrap;
+    margin: 0 auto;
+    animation: type-in 2.5s steps(30, end);
+    animation-fill-mode: forwards;
+}
+
+.secondSentence{
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: type-in 2.5s steps(30, end);
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+}
+
+.thirdSentence{
+    width: 0;
+    overflow: hidden;
+    white-space:nowrap;
+    margin: 0 auto;
+    animation: type-in 2.5s steps(30, end);
+    animation-delay: 11.5s;
+    animation-fill-mode: forwards;
+}
+
+@media screen  and (max-width: 600px) { 
+    .firstSentence, .secondSentence, .thirdSentence{
+        white-space:break-spaces;
+    }
+}

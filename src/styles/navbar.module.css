@@ -1,21 +1,27 @@
 .navbar{
     width: 100vw;
     height: 5vh;
-    background-color: #fff;
+    background-color: black;
     display: flex;
     position: fixed;
     top:0;
     overflow: hidden;
+    z-index: 10;
 }
 .navbar>a{
     flex:1;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #FFF;
     padding: 1rem;
     cursor: pointer;
     line-height: 1rem;
     text-decoration: none;
-    color: black;
+    color: #FFF;
+    -webkit-user-drag: none;
+}
+
+.navbar>a:hover{
+    background-color: orangered;
 }
