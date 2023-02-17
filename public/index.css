@@ -1,6 +1,17 @@
 body{
     margin: 0;
-    margin-top: 5vh;
     padding: 0;
+    padding-top: 5vh;
     box-sizing: border-box;
+    background-color: black;
+}
+
+*{
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    font-family: 'Roboto', sans-serif;
+}
+
+*::-webkit-scrollbar{
+    display: none;
 }
