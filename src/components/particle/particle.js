@@ -12,13 +12,9 @@ const ParticlesPage = () => {
         await loadFull(engine);
     }, []);
 
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container);
-    }, []);
-
     return(
         <div>
-            <Particles init={particlesInit} loaded={particlesLoaded} params={{
+            <Particles init={particlesInit}  params={{
                 background:{
                     color:"#000000"
                 },
@@ -62,7 +58,7 @@ const ParticlesPage = () => {
                             enable: true,
                             minimumValue: 0.5,
                         },
-                        value: 1,
+                        value: 2,
                     }
                 }
             }}/>
