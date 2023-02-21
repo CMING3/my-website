@@ -12,7 +12,7 @@ function App() {
         <Navbar/>
           {/** Changeable content, by default is home **/}
           <ContentSwitch/>
-        <Footer/>
+          <Footer/>
       </BrowserRouter>
     </div>
   );
