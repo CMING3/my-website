@@ -2,7 +2,6 @@ import React from 'react'
 import style from "../../styles/home.module.css"
 import Particles from '../particle/particle'
 
-
 export default function Home() {
 
   return (
