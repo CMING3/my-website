@@ -1,11 +1,45 @@
 .aboutMe{
-    height: 95vh;
+    min-height: 90vh;
+    max-height: max-content;
     color: white;
 }
 
 .statusBoard{
-    height: 100px;
-    margin: 20px;
+    background-color: #5C4033;
+    height: max-content;
+    margin: 2rem 3rem;
     border: 1px solid white;
     border-radius: 8px;
+    padding: 2rem 2rem;
+    display: flex;
+    gap:4rem;
+    flex-wrap: wrap;
+}
+.avatar{
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 4px;
+    margin: auto 1rem;
+    width: 12em;
+    height:16em;
+}
+
+.desc{
+    flex:1;
+}
+
+a{
+    color:white;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    width: fit-content;
+}
+
+li{
+    flex:50%;
 }
