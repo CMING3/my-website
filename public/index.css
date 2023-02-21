@@ -6,6 +6,14 @@ body{
     background-color: black;
 }
 
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
 *{
     -ms-overflow-style: none;
     scrollbar-width: none; 
