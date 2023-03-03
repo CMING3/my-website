@@ -9,7 +9,7 @@ export default function Content() {
 
   return (
       <Routes>
-        <Route  path={"/"} element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/AboutMe" element={<AboutMe/>}/>
         <Route path="/MyProjects" element={<MyProjects/>}/>
         <Route path="/MyBlog" element={<MyBlog/>}/>
