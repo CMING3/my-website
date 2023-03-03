@@ -27,6 +27,7 @@ export default function AboutMe() {
             <p>For more information about me, please feel free to contact me!</p>
           </div>
         </div>
+        <p className={style.credit}>wallpaper image by <a href="https://wallpaper.mob.org/pc/image/sci_fi-spaceship-planet-761789.html">mob.org</a></p>
       </div>
     </div>
   )

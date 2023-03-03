@@ -2,10 +2,15 @@
     min-height: 90vh;
     max-height: max-content;
     color: white;
+    background-image: url(../components/images/spacestation.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .statusBoard{
-    background-color: #5C4033;
+    background-color: rgba(0, 0, 0, 0.650);
     height: max-content;
     margin: 2rem 3rem;
     border: 1px solid white;
@@ -42,4 +47,16 @@ ul{
 
 li{
     flex:50%;
+}
+
+.credit{
+    color:grey;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+.credit>a{
+    color:grey;
 }
