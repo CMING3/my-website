@@ -3,7 +3,7 @@ import {Routes, Route} from "react-router-dom"
 import Home from './Home'
 import AboutMe from './AboutMe'
 import MyProjects from './MyProjects'
-import MyHobbies from './MyHobbies'
+import MyBlog from './MyBlog'
 
 export default function Content() {
 
@@ -12,7 +12,7 @@ export default function Content() {
         <Route  path={"/"} element={<Home/>}/>
         <Route path="/AboutMe" element={<AboutMe/>}/>
         <Route path="/MyProjects" element={<MyProjects/>}/>
-        <Route path="/MyHobbies" element={<MyHobbies/>}/>
+        <Route path="/MyBlog" element={<MyBlog/>}/>
       </Routes>
   )
 }
