@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.4e72c836.css",
+    "main.js": "/my-website/static/js/main.4c55e4cc.js",
+    "static/media/spacestation.jpeg": "/my-website/static/media/spacestation.a7b3baf758be1d38ef31.jpeg",
+    "index.html": "/my-website/index.html",
+    "main.4e72c836.css.map": "/my-website/static/css/main.4e72c836.css.map",
+    "main.4c55e4cc.js.map": "/my-website/static/js/main.4c55e4cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e72c836.css",
+    "static/js/main.4c55e4cc.js"
+  ]
+}
