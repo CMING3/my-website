@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2647ee7b.css",
-    "main.js": "/static/js/main.4c55e4cc.js",
+    "main.js": "/static/js/main.0adcd983.js",
     "static/media/spacestation.jpeg": "/static/media/spacestation.a7b3baf758be1d38ef31.jpeg",
     "index.html": "/index.html",
     "main.2647ee7b.css.map": "/static/css/main.2647ee7b.css.map",
-    "main.4c55e4cc.js.map": "/static/js/main.4c55e4cc.js.map"
+    "main.0adcd983.js.map": "/static/js/main.0adcd983.js.map"
   },
   "entrypoints": [
     "static/css/main.2647ee7b.css",
-    "static/js/main.4c55e4cc.js"
+    "static/js/main.0adcd983.js"
   ]
 }
